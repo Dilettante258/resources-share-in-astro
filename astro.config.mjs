@@ -9,7 +9,7 @@ export default defineConfig({
 		assetsInclude: ["**/*.ppt", "**/*.pptx", "**/*.doc", "**/*.docx"]
 	  },
 	  integrations: [starlight({
-		title: 'Campus-Share-Template',
+		title: 'Resources-Share-In-Astro',
 		defaultLocale: 'root',
 		locales: {
 		  root: {
@@ -18,7 +18,7 @@ export default defineConfig({
 		  }
 		},
 		social: {
-		  github: 'https://github.com/dilettante258/campus-share-template'
+		  github: 'https://github.com/dilettante258/resources-share-in-astro'
 		},
 		customCss: ['./src/styles/custom.css'],
 		sidebar: [{
