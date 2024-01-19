@@ -1,5 +1,5 @@
 {
-  "name": "@example/starlight-basics",
+  "name": "resources-share-in-astro",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -13,6 +13,8 @@
   "dependencies": {
     "@astrojs/starlight": "^0.15.4",
     "astro": "^4.2.1",
+    "rehype-katex": "^7.0.0",
+    "remark-math": "^6.0.0",
     "sharp": "^0.32.5"
   }
 }

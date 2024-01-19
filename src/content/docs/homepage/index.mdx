@@ -1,0 +1,63 @@
+---
+title: Campus-Share-Template
+description: 项目介绍
+---
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<div class="badge-container">
+    <div class="badge">
+        <a href="https://github.com/dilettante258/campus-share-template/stargazers">
+            <img src="https://img.shields.io/github/stars/dilettante258/campus-share-template.svg?style=for-the-badge" alt="stargazers"></img>
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://github.com/dilettante258/campus-share-template/network/members">
+            <img src="https://img.shields.io/github/forks/dilettante258/campus-share-template.svg?style=for-the-badge" alt="contributors"></img>
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://github.com/dilettante258/campus-share-template/pulls">
+            <img src="https://img.shields.io/github/issues-pr-closed-raw/dilettante258/campus-share-template.svg?style=for-the-badge" alt="pulls"></img>
+        </a>
+    </div>
+    <div class="badge">
+        <img src="https://img.shields.io/github/repo-size/dilettante258/campus-share-template.svg?style=for-the-badge" alt="size"></img>
+    </div>
+</div>
+
+当我们有时候需要下载资料时，只想下载几个文件，而`git clone`需要的空间太多，而单个下载又太麻烦。
+受 [`浙江大学课程攻略共享计划`](https://github.com/QSCTech/zju-icicles) 和 
+[`清华大学计算机系课程攻略`](https://github.com/PKUanonym/REKCARC-TSC-UHT) 等项目启发，
+我就想着为我们学校的资源共享仓库做一个网站，但是又觉得我前面提到的两个网站框架又感觉太老，不是很“Modern”，
+于是就在AStro框架的[Starlight](https://github.com/withastro/starlight)模板上，修改出一个适用于校园课程资源分享的前端网站模板。
+
+支持自动更新文件索引，Twikoo评论系统助你实现互动交流。精美设计提升浏览分享体验。希望为大学学习提供便捷，促进知识传播。欢迎体验并提建议！
+
+你可以看[the Starlight Docs](https://starlight.astro.build/)来继续自定义化该项目。
+
+
+## 资料列表
+<CardGrid stagger>
+    <Card title="数理基础类" icon="document">
+        1. 高等数学A（上）
+        2. 线性代数与解析几何 
+        3. 高等数学A（下）✅ (Last updated: 202X-XX-XX)
+        4. 物理实验（上）
+    </Card>    
+    <Card title="卫星" icon="laptop">
+        1. 高级语言程序设计
+        2. 算法分析与设计C ✅ (Last updated: 202X-XX-XX)
+    </Card>
+    <Card title="电子信息类" icon="open-book">
+        1. 电路分析基础C ✅ (Last updated: 202X-XX-XX)
+        2. 模拟电子电路C
+        3. 通信原理C
+        4. 信号与系统C
+        5. 数字电路与逻辑设计B ✅ (Last updated: 202X-XX-XX)
+    </Card>
+    <Card title="其他" icon="translate">
+    1. 近现代史 ✅ (Last updated: 202X-XX-XX)
+    2. 军事理论 ✅ (Last updated: 202X-XX-XX)
+    3. 中国文化概论 ✅ (Last updated: 202X-XX-XX)
+  </Card>
+</CardGrid>
